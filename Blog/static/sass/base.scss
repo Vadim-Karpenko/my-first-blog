@@ -1,6 +1,6 @@
-@import 'compass/reset';
 $main-color:aliceblue;
 $black-main: #333333;
+
 html, body{
     height: 100%;
 }
@@ -14,7 +14,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 660px;
+    height: 92vh;
 }
 
 .page-header-down>h1 {
@@ -22,17 +22,17 @@ body {
         color: $main-color; 
         text-decoration: none;
         display:block;
-        padding-top: 7px;
+        padding-top: 1vh;
         
     }
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 6vh;
 }
 
 .page-header-down {
-    height: 3.5em;
+    height: 8vh;
     background-color: $black-main;
 }
 
@@ -40,24 +40,44 @@ body {
 	text-align: center;
 }
 .post {
-    margin-top: 100px;
+    margin-top: 16vh;
     font-family: 'Alfa Slab One', sans-serif;
     color: #494949; 
+    line-height: 2vh;
 }
 .title>h2>a {
-    font-size: 28px;
+    font-size: 4vh;
     color: #494949; 
     text-decoration: none;
 }
 
 .text {
-	font-size: 16px;
+	font-size: 3vh;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 .date {
-    font-size: 14px;
+    font-size: 1.7vh;
     font-family: sans-serif;
+}
+
+.page-footer {
+    margin-top: 16vh;
+    height: 8vh;
+    background-color: $black-main;
+    text-align: center;
+    .fa-vk {
+	    color: aliceblue;
+        font-size: 30px;
+        margin-right: 2.5vh;
+        padding-top: 1vh;
+    }
+    .fa-instagram {
+        color: aliceblue;
+        font-size: 30px;
+        margin-left: 2.5vh;
+        padding-top: 1.5vh;
+    }
 }
 

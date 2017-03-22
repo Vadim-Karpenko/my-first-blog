@@ -1,5 +1,5 @@
 $(document).ready(function() { 
     
-    jQuery.scrollSpeed(110, 800);
+    jQuery.scrollSpeed(113, 800);
     
 });
