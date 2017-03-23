@@ -49,12 +49,14 @@ body {
     font-size: 4vh;
     color: #494949; 
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .text {
-	font-size: 3vh;
+	font-size: 2.5vh;
     font-family: sans-serif;
     font-weight: bold;
+    line-height: 3vh;
 }
 
 .date {
@@ -63,7 +65,7 @@ body {
 }
 
 .page-footer {
-    margin-top: 16vh;
+    margin-top: 4vh;
     height: 8vh;
     background-color: $black-main;
     text-align: center;
@@ -79,5 +81,9 @@ body {
         margin-left: 2.5vh;
         padding-top: 1.5vh;
     }
+}
+
+.pagination {
+	margin-top: 14vh;
 }
 
