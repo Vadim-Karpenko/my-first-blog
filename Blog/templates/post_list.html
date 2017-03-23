@@ -17,7 +17,7 @@
     <div class="pagination">
         <span class="step-links">
             {% if posts.has_previous %}
-                <a href="?page={{ contacts.previous_page_number }}">previous</a>
+                <span class="paginator_button"><a href="?page={{ contacts.previous_page_number }}">prev</a></span>
             {% endif %}
 
             <span class="current">
@@ -25,7 +25,7 @@
             </span>
 
             {% if posts.has_next %}
-                <a href="?page={{ posts.next_page_number }}">next</a>
+                <span class="paginator_button"><a href="?page={{ posts.next_page_number }}">next</a></span>
             {% endif %}
         </span>
     </div>
