@@ -5,12 +5,12 @@ html, body {
 
 /* line 9, ../sass/base.scss */
 body {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 /* line 12, ../sass/base.scss */
 .page-header {
-  background: url(../images/bg.jpeg) no-repeat center center fixed;
+  background: url(../images/bg.jpeg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,14 +23,14 @@ body {
   text-align: center;
   font-family: 'Teko', sans-serif;
   font-weight: bold;
-  font-size: 6vh;
+  font-size: 4vh;
 }
 /* line 22, ../sass/base.scss */
 .page-header-down > h1 > a {
   color: aliceblue;
   text-decoration: none;
   display: block;
-  padding-top: 1vh;
+  padding-top: 2vh;
 }
 
 /* line 35, ../sass/base.scss */
@@ -54,7 +54,7 @@ body {
 
 /* line 49, ../sass/base.scss */
 .title > h2 > a {
-  font-size: 4vh;
+  font-size: 3vh;
   color: #494949;
   text-decoration: none;
   text-transform: uppercase;
@@ -62,7 +62,7 @@ body {
 
 /* line 56, ../sass/base.scss */
 .text {
-  font-size: 2.5vh;
+  font-size: 2vh;
   font-family: sans-serif;
   font-weight: bold;
   line-height: 3vh;
