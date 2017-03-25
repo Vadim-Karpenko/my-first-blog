@@ -4,13 +4,8 @@ html, body {
 }
 
 /* line 9, ../sass/base.scss */
-body {
-  /*overflow: hidden;*/
-}
-
-/* line 12, ../sass/base.scss */
 .page-header {
-  background: url(../images/bg.jpeg) center center no-repeat fixed;
+  background: url(../images/bg.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,14 +13,14 @@ body {
   height: 92vh;
 }
 
-/* line 21, ../sass/base.scss */
+/* line 18, ../sass/base.scss */
 .page-header-down > h1 {
   text-align: center;
   font-family: 'Teko', sans-serif;
   font-weight: bold;
   font-size: 4vh;
 }
-/* line 22, ../sass/base.scss */
+/* line 19, ../sass/base.scss */
 .page-header-down > h1 > a {
   color: aliceblue;
   text-decoration: none;
@@ -33,18 +28,18 @@ body {
   padding-top: 2vh;
 }
 
-/* line 35, ../sass/base.scss */
+/* line 32, ../sass/base.scss */
 .page-header-down {
   height: 8vh;
   background-color: #333333;
 }
 
-/* line 40, ../sass/base.scss */
+/* line 37, ../sass/base.scss */
 .content {
   text-align: center;
 }
 
-/* line 43, ../sass/base.scss */
+/* line 40, ../sass/base.scss */
 .post {
   margin-top: 16vh;
   font-family: 'Alfa Slab One', sans-serif;
@@ -52,7 +47,7 @@ body {
   line-height: 2vh;
 }
 
-/* line 49, ../sass/base.scss */
+/* line 46, ../sass/base.scss */
 .title > h2 > a {
   font-size: 3vh;
   color: #494949;
@@ -60,7 +55,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 56, ../sass/base.scss */
+/* line 53, ../sass/base.scss */
 .text {
   font-size: 2vh;
   font-family: sans-serif;
@@ -68,13 +63,13 @@ body {
   line-height: 3vh;
 }
 
-/* line 63, ../sass/base.scss */
+/* line 60, ../sass/base.scss */
 .date {
   font-size: 1.7vh;
   font-family: sans-serif;
 }
 
-/* line 68, ../sass/base.scss */
+/* line 65, ../sass/base.scss */
 .page-footer {
   margin-top: 4vh;
   height: 8vh;
@@ -82,37 +77,37 @@ body {
   text-align: center;
   padding: 1.5vh;
 }
-/* line 74, ../sass/base.scss */
+/* line 71, ../sass/base.scss */
 .page-footer .fa-vk {
   color: aliceblue;
   font-size: 4.5vh;
   margin-right: 2.5vh;
 }
-/* line 79, ../sass/base.scss */
+/* line 76, ../sass/base.scss */
 .page-footer .fa-instagram {
   color: aliceblue;
   font-size: 4.5vh;
   margin-left: 2.5vh;
 }
 
-/* line 86, ../sass/base.scss */
+/* line 83, ../sass/base.scss */
 .pagination {
   margin-top: 14vh;
 }
 
-/* line 90, ../sass/base.scss */
+/* line 87, ../sass/base.scss */
 .paginator_button {
   background-color: #636363;
   padding: 0.5vh 1vh 0.5vh 1vh;
   border-radius: 6px;
 }
-/* line 94, ../sass/base.scss */
+/* line 91, ../sass/base.scss */
 .paginator_button:hover {
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
 }
-/* line 99, ../sass/base.scss */
+/* line 96, ../sass/base.scss */
 .paginator_button a {
   color: aliceblue;
   line-height: 1vh;
